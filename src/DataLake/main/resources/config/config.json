@@ -1,0 +1,38 @@
+{
+  "sourcedb": "oracle",
+  "operationType": "Import",
+  "application": "TEST",
+  "logdirectory": "/dev/datelake",
+  "userName": "username",
+  "password": "pwd",
+  "schema": "SIEBEL",
+  "connectionUrl": "jdbc:oracle:thin:user/user@some-server.com:1521/SCHEMA.demo.com",
+  "tableDetails": [
+    {
+      "tableName": "",
+      "primaryKey": "",
+      "columns": "",
+      "incrementalKey": "",
+      "incrementalkey_standby": "",
+      "incrementalMode": "",
+      "splitbyKey": "",
+      "refresh_req_yn": "Y",
+      "fullLoad": "Y",
+      "hdfsPath": "",
+      "delimiter": ","
+    },
+    {
+      "tableName": "",
+      "primaryKey": "",
+      "columns": "",
+      "incrementalKey": "",
+      "incrementalkey_standby": "",
+      "incrementalMode": "",
+      "splitbyKey": "",
+      "refresh_req_yn": "Y",
+      "fullLoad": "Y",
+      "hdfsPath": "",
+      "delimiter": ","
+    }
+  ]
+}
